@@ -11,4 +11,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'TestV17';
+
+  // users = await fetch('https://api.publicapis.org/').then() ...
 }
