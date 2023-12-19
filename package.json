@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "gh-build": "ng run TestV17:build-ghpages",
-    "format": "npx prettier --write"
+    "format": "prettier --write \"**/*.{ts,html,css}\""
   },
   "private": true,
   "dependencies": {
@@ -38,6 +38,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "postcss": "^8.4.31",
     "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.9",
     "tailwindcss": "^3.3.5",
     "typescript": "~5.2.2"
   }
