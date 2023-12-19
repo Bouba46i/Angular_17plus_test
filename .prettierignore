@@ -1,0 +1,14 @@
+# Prettier will also follow rules specified in the ".gitignore" 
+
+# to ignore a specifice line : // prettier-ignore
+
+.angular
+.vscode
+docs
+node_modules
+
+package.json
+package-lock.json
+
+.prettierignore
+prettier.config.js
