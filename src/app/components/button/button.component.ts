@@ -7,4 +7,6 @@ import { CommonModule } from '@angular/common';
 	imports: [CommonModule],
 	templateUrl: './button.component.html',
 })
-export class ButtonComponent {}
+export class ButtonComponent {
+	// TODO : validation du formulaire -> changement de url parameter
+}
