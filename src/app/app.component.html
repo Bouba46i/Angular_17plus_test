@@ -7,7 +7,12 @@
 		<ul>
 			<li *ngFor="let person of list">{{ person.name }}</li>
 		</ul>
+		<a [routerLink]="['']">home</a>
+		<a [routerLink]="['/persons']">persons</a>
+		<section>
+			<router-outlet></router-outlet>
+		</section>
 	</div>
 </main>
 
-<router-outlet></router-outlet>
+<!-- <router-outlet></router-outlet> -->
